@@ -31,6 +31,14 @@ body {
   line-height: 24px;
   font-family: "Open Sans", sans-serif; }
 
+.reviews {
+  width: 280px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
+  min-height: 205px;
+  border: gold 5px solid; }
+
 .about {
   width: 320px;
   padding-left: 0;
@@ -47,12 +55,24 @@ body {
     border-top: 59px white solid;
     border-right: 320px #f2f2f2 solid; }
 
+.presentation {
+  padding-left: 20px;
+  padding-right: 20px;
+  border: gold 5px solid; }
+  .presentation p {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: lighter;
+    margin: 0;
+    padding-bottom: 40px; }
+
 header {
   width: 320px;
   margin: 0 auto;
   background-color: #1d2631;
   background-image: url("../img/bg-back-mobile@1x.jpg");
-  background-size: 320px 462px;
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: 5px;
@@ -63,4 +83,27 @@ header {
   width: 280px;
   padding-right: 20px;
   padding-left: 20px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background-color: white;
+  border: gold 5px solid; }
+
+.map {
+  position: relative;
+  margin: 0 auto;
+  width: 320px;
+  border: gold 5px solid; }
+  .map::before {
+    content: "";
+    position: absolute;
+    border-top: 60px white solid;
+    border-left: 165px transparent solid;
+    border-right: 165px transparent solid;
+    top: 0;
+    z-index: 100; }
+
+.offer {
+  width: 280px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
+  border: gold 5px solid; }
