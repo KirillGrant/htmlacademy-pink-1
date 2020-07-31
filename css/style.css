@@ -113,7 +113,9 @@ body {
 .presentation {
   padding-left: 20px;
   padding-right: 20px;
-  border: gold 5px solid; }
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
   .presentation p {
     color: white;
     text-align: center;
@@ -122,6 +124,38 @@ body {
     font-weight: lighter;
     margin: 0;
     padding-bottom: 40px; }
+
+.presentation__title {
+  display: none; }
+
+.presentation__download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 274px;
+  height: 50px;
+  background-color: initial;
+  border: 3px white solid;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px; }
+
+.presentation__platform-list {
+  width: 280px;
+  padding-top: 32px;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: 0;
+  padding-bottom: 25px; }
+  .presentation__platform-list li:nth-child(1) {
+    padding-right: 37px; }
+  .presentation__platform-list li:nth-child(2) {
+    padding-right: 37px; }
 
 header {
   width: 320px;
@@ -215,5 +249,59 @@ header {
   width: 280px;
   padding-right: 20px;
   padding-left: 20px;
+  margin: 0 auto; }
+  .offer table {
+    border-collapse: collapse; }
+
+.offer__title {
+  position: relative;
+  width: 276px;
+  height: 98px;
+  background-color: #283645;
+  color: white;
+  text-align: center;
+  border: 3px #bec2c7 solid;
+  border-top: none;
+  border-bottom: none; }
+  .offer__title::before {
+    content: "";
+    width: 72px;
+    height: 72px;
+    background-image: url("../img/");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -1px;
+    left: -1px; }
+
+.offer__option {
+  width: 275px;
+  height: 60px;
+  color: #283645;
+  border: 3px #bec2c7 solid;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 30px; }
+
+.offer__option--yes {
+  background-image: url("../img/");
+  background-repeat: no-repeat;
+  background-size: 29px;
+  background-position-x: 90%;
+  background-position-y: 50%; }
+
+.offer__option--no {
+  background-image: url("../img/");
+  background-repeat: no-repeat;
+  background-size: 29px;
+  background-position-x: 90%;
+  background-position-y: 50%; }
+
+.offer__btn-list {
+  width: 320px;
+  min-height: 97px;
   margin: 0 auto;
-  border: gold 5px solid; }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2; }
