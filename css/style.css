@@ -179,18 +179,12 @@ header {
   background-position: left;
   background-position-x: 20px; }
 
-.popup__btn-open {
+.header__popup-button {
   border: none;
   padding: 0;
   background-color: initial;
   align-items: center;
   margin-left: auto; }
-
-.header__presentation {
-  background-image: url("../img/iphone-hand-mobile@1x.png");
-  background-repeat: no-repeat;
-  background-position-y: 115px;
-  padding-top: 425px; }
 
 .contaсt {
   min-height: 412px;
@@ -296,12 +290,3 @@ header {
   background-size: 29px;
   background-position-x: 90%;
   background-position-y: 50%; }
-
-.offer__btn-list {
-  width: 320px;
-  min-height: 97px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f2f2f2; }
